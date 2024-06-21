@@ -1,0 +1,160 @@
+#mainDivSignup{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color:darkorange;
+  margin-top:0;
+}
+.anchorSignup{
+
+  text-decoration: none;
+  color:greenyellow;
+  font-size: large;
+  font-weight: bold;
+}
+#lblSignup1{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblSignup2{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblSignup3{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblSignup4{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblSignup5{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblSignup6{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+  margin-left:-4vw;
+
+}
+
+#lblSignup7{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+
+#lblSignup8{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+
+#lblSignup9{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+  margin-left:10vw;
+
+}
+#inpSignup1{
+
+  width:15vw;
+  height:5vh;
+}
+
+#inpSignup2{
+  width:15vw;
+  height:5vh;
+ margin-left:10px;
+}
+
+#inpSignup3{
+
+  width:15vw;
+  height:5vh;
+  margin-left:1.5vw;
+}
+
+#inpSignup4{
+  width:15vw;
+  height:5vh;
+ margin-left:1.5vw;
+ margin-top:3vh;
+}
+
+#inpSignup5{
+
+  width:15vw;
+  height:5vh;
+}
+#signUpSubmit{
+  margin-top:25px;
+  width:15vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  font-size: large;
+  font-weight: bold;
+  margin-left:7vw;
+  padding-bottom:20px;
+}
+
+#spanSignup1{
+  color:aqua;
+  margin-left:5vw;
+
+  }
+#spanSignup2{
+ color:aqua;
+ margin-left:4vw;
+
+    }
+#spanSignup3{
+color:aqua;
+margin-left:12.5vw;
+ }
+
+#spanSignup4{
+  color:aqua;
+  margin-left:15vw;
+
+        }
+#spanSignup5{
+  color:aqua;
+  margin-left:7.5vw;
+  }
+
+#spanSignup6{
+  color:aqua;
+  margin-left:8vw;
+
+     }
+h1{
+  justify-content: center;
+  text-align: center;
+  color:greenyellow;
+  padding-top:10vh;
+
+}
+h2{
+  color:deeppink;
+}
+
+

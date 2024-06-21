@@ -1,0 +1,74 @@
+#mainDivLogin{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color:darkorange;
+  margin-top:0;
+}
+.anchorLogin{
+
+  text-decoration: none;
+  color:greenyellow;
+  font-size: large;
+  font-weight: bold;
+}
+.lblLogin{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#inpLogin1{
+
+  width:15vw;
+  height:5vh;
+}
+
+#inpLogin2{
+  width:15vw;
+  height:5vh;
+ margin-left:10px;
+}
+
+#loginSubmit{
+
+  width:15vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  margin-left:7vw;
+  padding-bottom:25px !important;
+  font-size: large;
+  font-weight: bold;
+}
+
+#spanLogin1{
+
+  color:aqua;
+  margin-left:13vw;
+}
+#spanLogin2{
+
+  color:aqua;
+  margin-left:12vw;
+}
+
+h1{
+  justify-content: center;
+  text-align: center;
+  color:greenyellow;
+  padding-top:10vh;
+
+}
+h2{
+  justify-content: center;
+  text-align: center;
+  color:deeppink;
+
+
+}
+
+
+

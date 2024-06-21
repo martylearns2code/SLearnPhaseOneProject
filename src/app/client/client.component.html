@@ -1,0 +1,39 @@
+<div id="mainDivClient">
+  <h1>Anna Client Management-Meeting Scheduler</h1>
+  <h2>Create New Client</h2>
+  <form [formGroup]="clientForm" (ngSubmit)="submitClientForm()" >
+   <label id="lblClient1">Client Name:</label>
+   <input type="text" id="inpClient1" name="clientName" formControlName="clientName" /><br/>
+   <span *ngIf="clientName && clientName.touched && clientName.invalid"  id="spanClient1" >Name must not be blank and should atleast be 3 characters</span><br/><br/>
+   <label for="" id="lblClient2">Client Email:</label>
+   <input type="email" id="inpClient2" name="email" formControlName="email"/><br/>
+   <span *ngIf="email && email.touched && email.invalid"  id="spanClient2" >Enter Valid email address</span><br/><br/>
+   <label id="lblClient3">Address 1:</label>
+   <input type="text" id="inpClient3" name="address1" formControlName="address1" /><br/>
+   <span *ngIf="address1 && address1.touched && address1.invalid"  id="spanClient3" >Address must not be blank</span><br/><br/>
+   <label for="" id="lblClient4">Address 2: </label>
+   <input type="text" id="inpClient4" name="address2" formControlName="address2" /><br/>
+   <span *ngIf="address2 && address2.touched && address2.invalid"  id="spanClient4" >Address must not be blank</span><br/><br/>
+   <label id="lblClient5">City:</label>
+   <input type="text" id="inpClient5" name="city" formControlName="city" /><br/>
+   <span *ngIf="city && city.touched && city.invalid"  id="spanClient5" >City must be Provided</span><br/><br/>
+   <label id="lblClient6">State:</label>
+   <input type="text" id="inpClient6" name="state" formControlName="state" /><br/>
+   <span *ngIf="state && state.touched && state.invalid"  id="spanClient6" >State must be Provided</span><br/><br/>
+   <label id="lblClient7">Pin Code:</label>
+   <input type="number" id="inpClient7" name="pinCode" formControlName="pinCode" /><br/>
+   <span *ngIf="pinCode && pinCode.touched && pinCode.invalid"  id="spanClient7" >Provide Valid Pin Code</span><br/><br/>
+   <label id="lblClient8">Type Of Client</label>
+   <input type="radio" id="corpClient" name="typeOfClient" value="Corporate"  formControlName="typeOfClient" />
+  <label for="corpClient" id="lblClient9">Corporate</label>
+  <input type="radio" id="nonCorp" name="typeOfClient" value="Individual" formControlName="typeOfClient" />
+  <label for="nonCorp" id="lblClient10">Individual</label><br>
+  <span  id="spanClient8" >Type of Client Must be Selected</span><br/>
+   <input type="submit" value="Create Client" id="clientSubmit" [disabled]="clientForm.invalid"/>
+   <input type="reset" value="Reset" id="clientReset">
+  <a routerLink="/admin"><input type="button" value="Cancel" id="clientCancel"></a><br/><br/>
+   </form>
+
+
+</div>
+

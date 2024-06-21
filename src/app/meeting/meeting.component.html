@@ -1,0 +1,45 @@
+<div id="mainDivMeeting">
+  <h1>Anna Client Management-Meeting Scheduler</h1>
+  <h2>Schedule Meeting With A Client</h2>
+  <form [formGroup]="meetingForm" (ngSubmit)="submitMeetingForm()">
+   <label id="lblMeeting1" for="inpMeeting1">Choose a Client:</label>
+<select id="inpMeeting1" name="clientName"  formControlName="clientName">
+  <option *ngFor="let client of clientsByName" [value]="client.clientByName">
+  {{client.clientByName}}
+</option>
+</select><br/>
+<span *ngIf="clientName && clientName.touched && clientName.invalid "  id="spanMeeting1" >Select a client to meet with</span><br/><br/>
+<label id="lblMeeting2" for="inpMeeting2">Type Of Meeting:</label>
+<select id="inpMeeting2" name="meetType" formControlName="meetType">
+ <option value="In Person">In Person</option>
+ <option value="By Phone">By Phone</option>
+ <option value="Video Conference">Video Conference</option>
+ </select><br/>
+ <span *ngIf="meetType && meetType.touched && meetType.invalid"  id="spanMeeting2" >Select the type of meeting</span><br/><br/>
+   <label for="" id="lblMeeting3">Meeting Topic:</label>
+   <input type="text" id="inpMeeting3" name="topic" formControlName="topic" /><br/>
+   <span *ngIf="topic && topic.touched && topic.invalid"  id="spanMeeting3" >Provide the meetings topic</span><br/><br/>
+   <label id="lblMeeting4" for="inpMeeting4">Meeting With:</label>
+<select id="inpMeeting4" name="meetWithEmp"  formControlName="meetWithEmp">
+ <option *ngFor="let employee of employeesByName" [value]="employee.employeeByName">
+  {{employee.employeeByName}}
+</option>
+ </select><br/>
+ <span *ngIf="meetWithEmp && meetWithEmp.touched && meetWithEmp.invalid"  id="spanMeeting4" >Select the employee meeting with</span><br/><br/>
+   <label id="lblMeeting5"><span>Number Of</span><br/>Participants:<span></span> </label>
+   <input type="number" id="inpMeeting5" name="participantsNum" formControlName="participantsNum" /><br/>
+   <span *ngIf="participantsNum && participantsNum.touched && participantsNum.invalid"  id="spanMeeting5" >Provide the number of participants </span><br/><br/>
+   <label for="" id="lblMeeting6">Start Time: </label>
+   <input type="datetime-local" id="inpMeeting6" name="meetingTime" formControlName="meetingTime" /><br/>
+   <span *ngIf="meetingTime && meetingTime.touched && meetingTime.invalid"  id="spanMeeting6" >Select the date and time of meeting</span><br/>
+   <input type="submit" value="Schedule Meeting" id="meetScheduleSubmit" [disabled]="meetingForm.invalid"/>
+   <input type="reset" value="Reset" id="meetScheduleReset">
+   <a routerLink="/admin"><input type="button" value="Cancel" id="meetScheduleCancel"></a><br/><br/>
+
+   </form>
+
+
+</div>
+
+
+

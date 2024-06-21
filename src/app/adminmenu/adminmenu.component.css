@@ -1,0 +1,46 @@
+#mainDivAdmin{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color:darkorange;
+  margin-top:0;
+}
+
+.btnAdmin{
+
+  width:15vw;
+  height:5vh;
+  background-color: deeppink;
+  color:white;
+  margin-left:41vw;
+}
+
+h1{
+  justify-content: center;
+  text-align: center;
+  color:greenyellow;
+  padding-top:10vh;
+
+}
+
+h2{
+  justify-content: center;
+  text-align: center;
+  color:deeppink;
+  padding-top:4vh;
+  padding-bottom:3vh;
+
+}
+.anchorAdmin{
+
+  text-decoration: none;
+  color:greenyellow;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+
+

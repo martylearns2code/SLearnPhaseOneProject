@@ -1,0 +1,40 @@
+#mainDivResetPwd{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color:darkorange;
+  margin-top:0;
+}
+.anchorResetPwd{
+
+  text-decoration: none;
+  color:greenyellow;
+  font-size: large;
+  font-weight: bold;
+}
+.lblResetPwd{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+
+
+h1{
+  justify-content: center;
+  text-align: center;
+  color:greenyellow;
+  padding-top:10vh;
+
+}
+h2{
+  justify-content: center;
+  text-align: center;
+  color:deeppink;
+
+}
+
+
+

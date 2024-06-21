@@ -1,0 +1,131 @@
+#mainDivDelMeeting{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color:darkorange;
+  margin-top:0;
+}
+
+#lblDelMeeting1{
+  padding-right:3.5vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblDelMeeting2{
+  padding-right:5vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblDelMeeting3{
+  padding-right:1.25vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblDelMeeting4{
+  padding-right:1.5vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblDelMeeting5{
+  padding-right:1vw;
+  margin-right:3.3vw;
+  font-size:large;
+  font-weight:bold;
+}
+#lblDelMeeting6{
+  padding-right:2.25vw;
+  margin-right:2.8vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+
+
+#inpDelMeeting1{
+
+  width:15vw;
+  height:4vh;
+}
+
+#inpDelMeeting2{
+  width:15vw;
+  height:4vh;
+ margin-left:10px;
+}
+
+#inpDelMeeting3{
+
+  width:15vw;
+  height:4vh;
+  margin-left:1.5vw;
+}
+
+#inpDelMeeting4{
+  width:15vw;
+  height:4vh;
+ margin-left:1.5vw;
+
+}
+
+#inpDelMeeting5{
+  width:15vw;
+  height:4vh;
+
+}
+#inpDelMeeting6{
+
+  width:15vw;
+  height:4vh;
+}
+
+
+
+#deleteMeetSubmit{
+  margin-top:25px;
+  width:13vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  font-size:larger;
+  font-weight:bold;
+  margin-left:1vw;
+  padding-bottom:20px;
+}
+
+
+#deleteMeetCancel{
+  margin-top:25px;
+  width:11vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  font-size:larger;
+  font-weight:bold;
+  margin-left:1vw;
+  padding-bottom:20px;
+}
+
+
+h1{
+  justify-content: center;
+  text-align: center;
+  color:greenyellow;
+  padding-top:10vh;
+
+}
+h2{
+  justify-content: center;
+  text-align: center;
+  color:deeppink;
+
+
+}
+
+
+

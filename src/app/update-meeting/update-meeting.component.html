@@ -1,0 +1,50 @@
+<div id="mainDivUpdateMeet">
+  <h1>Anna Client Management-Meeting Scheduler</h1>
+  <h2>Update Meeting With A Client</h2>
+  <div>
+    <label id="lblUpdateMeet1" for="inpUpdateMeet1">Choose Client:</label>
+    <select id="inpUpdateMeet1" name="clientToEdit"  [(ngModel)]="getMeetingsOf">
+     <option *ngFor="let client of clientsByName" [value]="client.Id">
+       {{client.clientByName}}
+     </option>
+   </select>
+   <button id="getMeetDetailsSubmit"  (click)="getMeetings()">Get Meeting Details</button>
+   <a routerLink="/admin"><input type="button" value="Cancel" id="meetUpdateCancel"></a>
+    </div>
+<div id="updateDetailsDiv">
+  <table >
+    <tr>
+    <th>Meeting ID</th>
+    <th>Client Name</th>
+    <th>Meeting With</th>
+    <th>Type of Meeting</th>
+    <th>Meeting Topic</th>
+    <th>Start Time</th>
+    <th>Edit</th>
+    <th>Delete</th>
+    </tr>
+    <tr *ngFor="let meeting of clientsMeetings">
+        <td>{{meeting.meeting_id}}</td>
+        <td>{{meeting.client}}</td>
+        <td>{{meeting.meeting_with}}</td>
+        <td>{{meeting.type_of_meeting}}</td>
+        <td>{{meeting.meeting_topic}}</td>
+        <td>{{meeting.starting_at}}</td>
+        <td><button id="btnEditMeet"><a [routerLink]=
+          "['/editMeeting/'+ meeting.meeting_id]" class="anchorUpdate">Edit</a></button></td>
+        <td><button id="btnDeleteMeet"><a [routerLink]="['/deleteMeeting/'+ meeting.meeting_id]" class="anchorUpdate">Delete</a></button></td>
+
+
+    </tr>
+    </table>
+
+
+
+</div>
+
+
+
+</div>
+
+
+

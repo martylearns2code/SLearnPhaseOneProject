@@ -1,0 +1,24 @@
+<div id="mainDivLogin">
+  <h1>Anna Client Management-Meeting Scheduler</h1>
+  <h2>Login With Your Credentials</h2>
+  <form #data="ngForm" (ngSubmit)="chkLogin(data)">
+   <label class="lblLogin">User Name:</label>
+   <input type="email" id="inpLogin1" name="userName" #userName="ngModel" required minlength="3" email="true" (ngModel)="userName" /><br/>
+   <span *ngIf="userName.touched && userName.invalid"  id="spanLogin1" >Username is your email and must not be blank</span>
+   <br/><br/>
+   <label for="" class="lblLogin">Password:</label>
+   <input type="password" id="inpLogin2" name="password"  #password= "ngModel" required minlength="6"  (ngModel)="password" /><br/>
+   <span *ngIf="password.touched && password.invalid" id="spanLogin2" >Password must be atleast 6 characters long</span>
+   <br/>
+   <br/>
+   <input type="submit" value="Login" id="loginSubmit" [disabled]="data.invalid">
+   </form>
+   <br/>
+   <label for="" class="lblLogin">Dont Have an account? <a routerLink="/signUp" class="anchorLogin">Click here to Sign up</a></label><br/>
+   <label class="lblLogin">Forgot Your Password? <a routerLink="/resetPwd" class="anchorLogin">Click here to Reset</a></label><br/>
+
+
+
+</div>
+
+

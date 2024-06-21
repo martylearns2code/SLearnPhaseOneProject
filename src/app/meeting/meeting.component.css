@@ -1,0 +1,171 @@
+#mainDivMeeting{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color:darkorange;
+  margin-top:0;
+}
+
+#lblMeeting1{
+  padding-right:2.25vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblMeeting2{
+  padding-right:0.8vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblMeeting3{
+  padding-right:1.5vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblMeeting4{
+  padding-right:1.5vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblMeeting5{
+  padding-right:1vw;
+  margin-right:3.3vw;
+  font-size:large;
+  font-weight:bold;
+}
+#lblMeeting6{
+  padding-right:2.25vw;
+  margin-right:2.8vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+
+
+#inpMeeting1{
+
+  width:15vw;
+  height:5vh;
+}
+
+#inpMeeting2{
+  width:15vw;
+  height:5vh;
+ margin-left:10px;
+}
+
+#inpMeeting3{
+
+  width:15vw;
+  height:5vh;
+  margin-left:1.5vw;
+}
+
+#inpMeeting4{
+  width:15vw;
+  height:5vh;
+ margin-left:1.5vw;
+
+}
+
+#inpMeeting5{
+  width:15vw;
+  height:5vh;
+
+}
+#inpMeeting6{
+
+  width:15vw;
+  height:5vh;
+}
+
+#spanMeeting1{
+  color:aqua;
+  margin-left:9vw;
+
+  }
+#spanMeeting2{
+ color:aqua;
+ margin-left:9vw;
+
+    }
+#spanMeeting3{
+color:aqua;
+margin-left:9vw;
+ }
+
+#spanMeeting4{
+  color:aqua;
+  margin-left:11.5vw;
+
+        }
+#spanMeeting5{
+  color:aqua;
+  margin-left:12vw;
+  }
+
+#spanMeeting6{
+  color:aqua;
+  margin-left:12.5vw;
+
+     }
+
+
+#meetScheduleSubmit{
+  margin-top:25px;
+  width:13vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  font-size:larger;
+  font-weight:bold;
+  margin-left:1vw;
+  padding-bottom:20px;
+}
+
+#meetScheduleReset{
+  margin-top:25px;
+  width:11vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  font-size:larger;
+  font-weight:bold;
+  margin-left:1vw;
+  padding-bottom:20px;
+}
+#meetScheduleCancel{
+  margin-top:25px;
+  width:11vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  font-size:larger;
+  font-weight:bold;
+  margin-left:1vw;
+  padding-bottom:20px;
+}
+
+
+h1{
+  justify-content: center;
+  text-align: center;
+  color:greenyellow;
+  padding-top:10vh;
+
+}
+h2{
+  justify-content: center;
+  text-align: center;
+  color:deeppink;
+
+
+}
+
+
+

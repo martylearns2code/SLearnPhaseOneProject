@@ -1,0 +1,228 @@
+#mainDivClient{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color:darkorange;
+  margin-top:0;
+}
+.anchorSignup{
+
+  text-decoration: none;
+  color:greenyellow;
+  font-size: large;
+  font-weight: bold;
+}
+#lblClient1{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblClient2{
+  padding-right:0.8vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblClient3{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblClient4{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#lblClient5{
+  padding-right:1vw;
+  margin-right:3.3vw;
+  font-size:large;
+  font-weight:bold;
+  margin-left:1.5vw;
+
+
+}
+#lblClient6{
+  padding-right:1vw;
+  margin-right:2.8vw;
+  font-size:large;
+  font-weight:bold;
+  margin-left:1.5vw;
+}
+
+#lblClient7{
+  padding-right:1vw;
+  margin-right:0.8vw;
+  font-size:large;
+  font-weight:bold;
+  margin-left:1.5vw;
+
+
+}
+
+#lblClient8{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+  margin-left:3vw;
+
+}
+
+#lblClient9{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+
+}
+
+#lblClient10{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+
+}
+#inpClient1{
+
+  width:15vw;
+  height:5vh;
+}
+
+#inpClient2{
+  width:15vw;
+  height:5vh;
+ margin-left:10px;
+}
+
+#inpClient3{
+
+  width:15vw;
+  height:5vh;
+  margin-left:1.5vw;
+}
+
+#inpClient4{
+  width:15vw;
+  height:5vh;
+ margin-left:1.5vw;
+
+}
+
+#inpClient5{
+
+  width:15vw;
+  height:5vh;
+
+}
+#inpClient6{
+
+  width:15vw;
+  height:5vh;
+}
+#inpClient7{
+
+  width:15vw;
+  height:5vh;
+}
+
+#spanClient1{
+  color:aqua;
+  margin-left:5vw;
+
+  }
+#spanClient2{
+ color:aqua;
+ margin-left:5vw;
+
+    }
+#spanClient3{
+color:aqua;
+margin-left:6vw;
+ }
+
+#spanClient4{
+  color:aqua;
+  margin-left:6vw;
+
+        }
+#spanClient5{
+  color:aqua;
+  margin-left:3.5vw;
+  }
+
+#spanClient6{
+  color:aqua;
+  margin-left:4vw;
+
+     }
+ #spanClient7{
+ color:aqua;
+ margin-left:4vw;
+ }
+
+ #spanClient8{
+  color:aqua;
+  margin-left:5vw;
+  }
+
+
+
+
+#clientSubmit{
+  margin-top:25px;
+  width:11vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  font-size:larger;
+  font-weight:bold;
+  margin-left:2vw;
+  padding-bottom:20px;
+}
+
+#clientReset{
+  margin-top:25px;
+  width:11vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  font-size:larger;
+  font-weight:bold;
+  margin-left:1vw;
+  padding-bottom:20px;
+}
+#clientCancel{
+  margin-top:25px;
+  width:11vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  font-size:larger;
+  font-weight:bold;
+  margin-left:1vw;
+  padding-bottom:20px;
+}
+
+
+h1{
+  justify-content: center;
+  text-align: center;
+  color:greenyellow;
+  padding-top:10vh;
+
+}
+h2{
+  justify-content: center;
+  text-align: center;
+  color:deeppink;
+
+
+}
+
+

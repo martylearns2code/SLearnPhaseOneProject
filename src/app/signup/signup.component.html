@@ -1,0 +1,41 @@
+
+ <div id="mainDivSignup">
+  <h1>Anna Client Management-Meeting Scheduler</h1>
+  <h2>Register With Your Details</h2>
+  <div class="container">
+
+    <form  [formGroup]="empSignupForm" (ngSubmit)="submitForm()"  class="empSignup-form">
+     <div class="form-group">
+
+      <label id="lblSignup1">Your Name:</label>
+      <input type="text" id="inpSignup1" name="empName" formControlName="empName" /><br/>
+      <span *ngIf="empName && empName.touched && empName.invalid"  id="spanSignup1" >Name must not be blank and should atleast be 3 characters</span><br/><br/>
+      <label for="" id="lblSignup2">Your Email:</label>
+      <input type="email" id="inpSignup2" name="email" formControlName="email" /><br/>
+      <span *ngIf="email && email.touched && email.invalid"  id="spanSignup2" >Enter Valid email address</span><br/><br/>
+      <label id="lblSignup3">Password:</label>
+      <input type="password" id="inpSignup3" name="password" formControlName="password" /><br/>
+      <span *ngIf="password && password.touched && password.invalid"  id="spanSignup3" >Password must be atleast 6 characters long</span><br/><br/>
+      <label for="" id="lblSignup4"><span>Confirm</span><br/><span>Password:</span> </label>
+      <input type="password" id="inpSignup4" formControlName="confirmPwd"/><br/>
+      <span *ngIf="confirmPwd && confirmPwd.touched && confirmPwd.invalid"  id="spanSignup4" >Confirm Password must match original Password </span><br/><br/>
+      <label id="lblSignup5">Designation:</label>
+      <input type="text" id="inpSignup5" formControlName="designation" /><br/>
+      <span *ngIf="designation && designation.touched && designation.invalid"  id="spanSignup5" >Designatioon must not be blank</span><br/><br/>
+      <label id="lblSignup6">Are You Admin?</label>
+      <input type="radio" id="admin" name="roleAdmin" value="true"  formControlName="roleAdmin" >
+     <label for="admin" id="lblSignup7">Yes</label>
+     <input type="radio" id="nonAdmin" name="roleAdmin" value="false" formControlName="roleAdmin">
+     <label for="nonAdmin" id="lblSignup8">No</label><br>
+    <span id="spanSignup6" >Admin or not,must be provided!</span><br/>
+   <input type="submit" value="Sign Up" id="signUpSubmit" [disabled]="empSignupForm.invalid"/>
+   </div>
+
+    </form>
+    <br/>
+    <label for="" id="lblSignup9">Already Registered? <a routerLink="/logIn" class="anchorSignup">Log In Here</a></label><br/><br/>
+
+   </div>
+
+ </div>
+

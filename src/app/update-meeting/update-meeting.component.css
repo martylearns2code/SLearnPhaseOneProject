@@ -1,0 +1,110 @@
+#mainDivUpdateMeet{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color:darkorange;
+  margin-top:0;
+}
+
+#updateDetailsDiv{
+  padding-top:5vh;
+  margin-left:10vw;
+  width:80vw;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color:darkorange;
+  margin-top:0;
+}
+
+#lblUpdateMeet1{
+  padding-right:1vw;
+  font-size:large;
+  font-weight:bold;
+
+}
+#inpUpdateMeet1{
+
+  width:15vw;
+  height:5vh;
+}
+
+
+
+#getMeetDetailsSubmit{
+
+  width:15vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  margin-left:1.5vw;
+  font-size: large;
+  font-weight: bold;
+
+
+
+}
+
+#meetUpdateCancel{
+  width:11vw;
+  height:5vh;
+  background-color: deeppink;
+  color:greenyellow;
+  font-size:larger;
+  font-weight:bold;
+  margin-left:1vw;
+  padding-bottom:20px;
+}
+
+h1{
+  justify-content: center;
+  text-align: center;
+  color:greenyellow;
+  padding-top:10vh;
+
+}
+h2{
+  justify-content: center;
+  text-align: center;
+  color:deeppink;
+
+
+}
+
+#btnEditMeet{
+
+  width:6vw;
+  height:5vh;
+  background-color: deeppink;
+}
+
+#btnDeleteMeet{
+
+  width:6vw;
+  height:5vh;
+  background-color: deeppink;
+
+}
+
+.anchorUpdate{
+
+  text-decoration: none;
+  color:greenyellow;
+  font-size: large;
+  font-weight: bold;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+td{
+
+  color:aqua !important;
+}
+
+
+
+
